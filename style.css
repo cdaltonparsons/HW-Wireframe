@@ -1,0 +1,68 @@
+* {
+    background: darkgray;
+    align-self: auto;
+}
+
+body {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.clearfix {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+#header {
+    background: white;
+    color: darkgray;
+    width: 80%;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid;
+    margin-bottom: 15px;
+}
+
+#nav {
+    background: white;
+    color: darkgray;
+    width: 80%;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid;
+    margin-bottom: 25px;
+}
+
+#section {
+    background: white;
+    color: darkgray;
+    width: 550px;
+    text-align: center;
+    padding: 20px;
+}
+
+article{
+    background: darkgray;
+    color: white;
+    height: 145px;
+    padding: 20px;
+}
+
+#headers {
+    background: white;
+    color: darkgray;
+    border: 2px solid;
+    padding: 20px;
+}
+
+#para {
+    background: white;
+    color: darkgray;
+    border: 2px solid;
+    padding: 20px;
+}
+
+#left {
+    float: left;
+}
