@@ -69,17 +69,19 @@ article{
 
 #left {
     float: left;
+    display: block;
 }
 
 #aside {
     background: white;
     color: darkgray;
-    width: 480px;
+    width: 490px;
     height: 223px;
     text-align: center;
     padding: 20px;
     float: left;
     margin-left: 20px;
+    display: block;
     
 }
 
@@ -89,6 +91,7 @@ article{
     text-align: center;
     padding: 20px;
     border: 2px solid;
-    margin-top: 20px;
+    margin-top: 25px;
     width: 80%;
+    display: inline-block;
 }
