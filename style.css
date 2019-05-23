@@ -8,7 +8,7 @@ body {
     margin: 0 auto;
 }
 
-.clearfix {
+.clearfix::after {
     clear: both;
     content: "";
     display: block;
@@ -37,23 +37,27 @@ body {
 #section {
     background: white;
     color: darkgray;
-    width: 550px;
+    font-weight: bold;
+    width: 490px;
     text-align: center;
     padding: 20px;
-}
+}  
 
 article{
     background: darkgray;
     color: white;
     height: 145px;
     padding: 20px;
+    margin-top: 20px;
 }
 
 #headers {
     background: white;
     color: darkgray;
+    font-weight: bolder;
     border: 2px solid;
     padding: 20px;
+    margin-top: 20px;
 }
 
 #para {
@@ -65,4 +69,26 @@ article{
 
 #left {
     float: left;
+}
+
+#aside {
+    background: white;
+    color: darkgray;
+    width: 480px;
+    height: 223px;
+    text-align: center;
+    padding: 20px;
+    float: left;
+    margin-left: 20px;
+    
+}
+
+#footer {
+    background: white;
+    color: darkgray;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid;
+    margin-top: 20px;
+    width: 80%;
 }
