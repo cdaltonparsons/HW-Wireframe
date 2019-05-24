@@ -1,11 +1,5 @@
 * {
-    background: darkgray;
-    align-self: auto;
-}
-
-body {
-    width: 90%;
-    margin: 0 auto;
+    text-align: center;
 }
 
 .clearfix::after {
@@ -14,84 +8,66 @@ body {
     display: block;
 }
 
-#header {
-    background: white;
-    color: darkgray;
-    width: 80%;
-    text-align: center;
-    padding: 20px;
-    border: 2px solid;
-    margin-bottom: 15px;
-}
-
-#nav {
-    background: white;
-    color: darkgray;
-    width: 80%;
-    text-align: center;
-    padding: 20px;
-    border: 2px solid;
-    margin-bottom: 25px;
-}
-
-#section {
-    background: white;
-    color: darkgray;
-    font-weight: bold;
-    width: 490px;
-    text-align: center;
-    padding: 20px;
-}  
-
-article{
+body {
     background: darkgray;
-    color: white;
-    height: 145px;
-    padding: 20px;
-    margin-top: 20px;
 }
 
-#headers {
+header, nav {
     background: white;
     color: darkgray;
-    font-weight: bolder;
-    border: 2px solid;
     padding: 20px;
-    margin-top: 20px;
+    margin: 20px;
+
 }
 
-#para {
-    background: white;
-    color: darkgray;
-    border: 2px solid;
-    padding: 20px;
-}
-
-#left {
+.container {
     float: left;
-    display: block;
+    width: 47%;
+    margin: 0px 20px;
 }
 
-#aside {
+section, aside {
     background: white;
     color: darkgray;
-    width: 490px;
-    height: 223px;
-    text-align: center;
     padding: 20px;
-    float: left;
-    margin-left: 20px;
-    display: block;
     
 }
 
-#footer {
+
+aside {
+    float: left;
+    width: 45%;
+    height: 270px;
+    margin-left: 15px;
+    
+}
+
+article {
+    background: darkgray;
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+
+}
+
+.headers, .para {
     background: white;
     color: darkgray;
-    text-align: center;
     padding: 20px;
-    border: 2px solid;
-    margin-top: 25px;
-    width: 80%;
+    margin: 20px;
+
+}
+
+.headers {
+    font-weight: bolder;
+}
+
+footer{
+    background: white;
+    color: darkgray;
+    padding: 20px;
+    margin: 20px 20px 20px 20px;
+    width: 94.5%;
     display: inline-block;
 }
+
